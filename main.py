@@ -44,7 +44,7 @@ async def start_handler(bot: Client, event: Message):
             [
                 [InlineKeyboardButton("Support Group", url="https://t.me/naija_bestz"),
                  InlineKeyboardButton("Bots Channel", url="https://t.me/BestzBotupdate")],
-                [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/Davoe-D")]
+                [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/BestzBrothers")]
             ]
         )
     )
