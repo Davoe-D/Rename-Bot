@@ -45,9 +45,9 @@ async def UploadFile(bot: Client, message: Message, file_path: str, file_size):
             caption=((Config.CAPTION.format((await bot.get_me()).username) + f"\n\n**File Name:** `{file_path.rsplit('/', 1)[-1]}`\n**File Size:** `{humanbytes(file_size)}`") if (caption_ is None) else caption_),
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                     InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/BestzBrothers")],
+                    [InlineKeyboardButton("Support Group", url="https://t.me/naija_bestz"),
+                     InlineKeyboardButton("Bots Channel", url="https://t.me/BestzBotupdate")]
                 ]
             )
         )
@@ -146,9 +146,9 @@ async def UploadVideo(bot: Client, message: Message, file_path: str, file_size, 
             caption=((Config.CAPTION.format((await bot.get_me()).username) + f"\n\n**File Name:** `{file_path.rsplit('/', 1)[-1]}`\n**File Size:** `{humanbytes(file_size)}`") if (caption_ is None) else caption_),
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                     InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/BestzBrothers")],
+                    [InlineKeyboardButton("Support Group", url="https://t.me/naija_bestz"),
+                     InlineKeyboardButton("Bots Channel", url="https://t.me/BestzBotupdate")]
                 ]
             )
         )
@@ -203,9 +203,9 @@ async def UploadAudio(bot: Client, message: Message, file_path: str, file_size, 
             caption=((Config.CAPTION.format((await bot.get_me()).username) + f"\n\n**File Name:** `{file_path.rsplit('/', 1)[-1]}`\n**File Size:** `{humanbytes(file_size)}`") if (caption_ is None) else caption_),
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                     InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/BestzBrothers")],
+                    [InlineKeyboardButton("Support Group", url="https://t.me/naija_bestz),
+                     InlineKeyboardButton("Bots Channel", url="https://t.me/BestzBotupdate")]
                 ]
             )
         )
